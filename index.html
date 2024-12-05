@@ -61,8 +61,10 @@
 
 
         <!-- Donation card  -->
+
+        <!-- card number 01  -->
         <div>
-            <div class="hero bg-base-200">
+            <div class="hero bg-[white]">
                 <div class="hero-content flex-col lg:flex-row gap-16">
                     <img src="images/noakhali.png" class="max-w-sm rounded-lg shadow-2xl" />
                     <div>
@@ -90,6 +92,68 @@
                 </div>
             </div>
         </div>
+
+        <!-- card number 02  -->
+        <div>
+            <div class="hero bg-[white]">
+                <div class="hero-content flex-col lg:flex-row gap-16">
+                    <img src="images/noakhali.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <div class="px-6 py-3">
+                            <ul>
+                                <li class="relative text-lg"><img class="absolute -left-7 items-center"
+                                        src="images/coin.png" alt="">
+                                    5500 BDT
+                                </li>
+                            </ul>
+                        </div>
+                        <h1 class="text-lg font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
+                        <p class="py-6">
+                            Feni, Bangladesh has been affected by floods, and there are several ways to donate for flood
+                            relief in the area. Organizations such as the Bangladesh Red Crescent Society and the
+                            UNICEF.
+                        </p>
+
+                        <!-- Donation Amount  -->
+                        <input class="my-2 px-3" type="text" name="" id="" placeholder="Write Donate Amount">
+
+                        <!-- Donation button -->
+                        <button class="btn btn-outline w-full bg-[#b1b16c] text-lg">Donate Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- card number 03  -->
+        <div>
+            <div class="hero bg-[white]">
+                <div class="hero-content flex-col lg:flex-row gap-16">
+                    <img src="images/noakhali.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <div class="px-6 py-3">
+                            <ul>
+                                <li class="relative text-lg"><img class="absolute -left-7 items-center"
+                                        src="images/coin.png" alt="">
+                                    5500 BDT
+                                </li>
+                            </ul>
+                        </div>
+                        <h1 class="text-lg font-bold">Aid for Injured in the Quota Movement</h1>
+                        <p class="py-6">
+                            The quota movement in Bangladesh refers to a series of protests demanding reservations for
+                            women in government jobs. In 2018, two women, Nusrat Jahan Rashid and Delwar Jahan Mina,
+                            were beaten to death during the protests.
+                        </p>
+
+                        <!-- Donation Amount  -->
+                        <input class="my-2 px-3" type="text" name="" id="" placeholder="Write Donate Amount">
+
+                        <!-- Donation button -->
+                        <button class="btn btn-outline w-full bg-[#b1b16c] text-lg">Donate Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Footer part  -->
@@ -100,6 +164,16 @@
 
     <!-- Script js connect. -->
     <script src="js/donation.js"></script>
+
+
+
+    <script>
+        window.addEventListener("scroll", function () {
+            let header = document.querySelector("header");
+
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 </body>
 
 </html>
