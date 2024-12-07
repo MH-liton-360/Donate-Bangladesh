@@ -35,20 +35,22 @@
 
 <body class="lexend-regular">
     <!-- Header part  -->
-    <header class="bg-[#F9F7F3]">
+    <header class="bg-[#f4f5f5]">
         <nav class="lg:mx-auto max-w-7xl">
-            <ul class="flex gap-7 lg:gap-36 justify-between items-center mx-5 py-8">
+            <ul class="flex gap-1 justify-around lg:gap-36 lg:justify-between items-center lg:mx-5 py-8">
 
-                <li><button class="btn btn-warning w-24 text-lg"><a href="index.html">Home</a></button>
+                <li><button class="px-3 py-2 bg-orange-500 rounded-md text-white cursor-pointer text-sm"><a
+                            href="index.html">Home</a></button>
                 </li>
-                <li class="relative">
-                    <h1 class="text-xs lg:text-xl font-semibold"> <img class="lg:absolute right-48 w-7 mx-2"
-                            src="images/logo.png" alt=""> Donate
+                <li class="flex flex-col lg:flex-row items-center justify-center gap-1">
+                    <img class="h-7 w-7" src="images/logo.png" alt="">
+                    <h1 class="text-xs lg:text-xl font-semibold text-center hidden lg:flex">Donate
                         Bangladesh
                     </h1>
                 </li>
-                <li class="relative text-lg"><img class="absolute -left-7" src="images/coin.png" alt=""> 5500
-                    BDT
+                <li class="text-sm flex items-center lg:text-lg"><img src="images/coin.png" alt=""> <span
+                        id="Total-balance">10500
+                    </span> BDT
                 </li>
             </ul>
         </nav>
