@@ -53,6 +53,61 @@
             </ul>
         </nav>
     </header>
+
+
+    <!-- Main part  -->
+    <main class="lg:mx-auto max-w-7xl py-10">
+        <div class="join join-vertical w-full">
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" checked="checked" />
+                <div class="collapse-title text-xl font-lg">What is the Documentation Object Model(DOM)?</div>
+                <div class="collapse-content">
+                    <p>The Documentation Object Model (DOM) is a programming interface for HTML and XML documents. It
+                        represents the structure of a document as a tree-like data structure, with each node
+                        representing an element, attribute, or text content.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-lg">How do you select an element from the DOM?</div>
+                <div class="collapse-content">
+                    <p>To select all the elements with the same tag name with JavaScript, you can use the document.
+                        getElementsByTagName() method, which takes the tag name as a parameter and returns a collection
+                        of elements. For example, let divs = document. getElementsByTagName("div"); assigns all the div
+                        elements to the divs variable.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-lg">What is event delegation in the context of the DOM, and
+                    is it useful?
+                </div>
+                <div class="collapse-content">
+                    <p>Event delegation is a technique in JavaScript where an event listener is attached to a parent
+                        element instead of individual child elements. The parent element listens for events that bubble
+                        up from its child elements, and the event handler can use the event.target property to determine
+                        which child element triggered the event. <br>
+                        <span class="bg-yellow-400">Useful:</span>
+                        Improved Performance: Reduces the number of event listeners, which is especially beneficial when
+                        there are many child elements.
+                        Handles Dynamically Added Elements: New child elements automatically inherit event handling
+                        without needing new listeners.
+                        Cleaner, More Manageable Code: Centralizes event handling, reducing duplication and making the
+                        code easier to maintain.
+                    </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-lg">How do you manipulate an element's attributes and styles
+                    using the DOM?</div>
+                <div class="collapse-content">
+                    <p>Attributes in HTML elements define the properties of the element, such as id, class, src, href,
+                        and so on. JavaScript provides several methods to read and manipulate these attributes.</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
