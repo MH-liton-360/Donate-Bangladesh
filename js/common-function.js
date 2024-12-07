@@ -12,3 +12,11 @@ function getTextFieldValueById(id) {
 
     return TextValueNumber;
 }
+
+function showSectionById(id) {
+    document.getElementById('donation-section').classList.add('hidden');
+    document.getElementById('history-section').classList.add('hidden');
+
+    // show the section 
+    document.getElementById(id).classList.remove('hidden');
+}

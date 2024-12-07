@@ -1,6 +1,6 @@
 document.getElementById('btn-Donation')
-    .addEventListener('click', function (even) {
-        even.preventDefault();
+    .addEventListener('click', function (event) {
+        event.preventDefault();
 
 
 
@@ -17,7 +17,11 @@ document.getElementById('btn-Donation')
         document.getElementById('Total-balance').innerText = RemainingBalance;
 
 
+        // add to history 
+        const p = document.createElement('p');
+        p.innerText = `${addMoney} Taka is Donated for Donate for Flood at Noakhali, Bangladesh`;
 
+        document.getElementById('history-section').appendChild(p);
 
 
     });

@@ -63,8 +63,8 @@
         <!-- Donation & History Btn  -->
         <div>
             <ul class="flex lg:flex gap-2 py-10 justify-center">
-                <button class="btn btn-outline btn-success w-32">Donation</button>
-                <button class="btn btn-outline btn-success w-32">History</button>
+                <button id="show-add-money" class="btn btn-outline btn-success w-32">Donation</button>
+                <button id="show-add-history" class="btn btn-outline btn-success w-32">History</button>
             </ul>
         </div>
 
@@ -73,104 +73,116 @@
         <!-- Donation Section  card  -->
 
         <!-- card number 01  -->
-        <div>
-            <div class="hero bg-[white] py-5">
-                <div class="hero-content flex-col lg:flex-row gap-10">
-                    <img src="images/noakhali.png" class="rounded-lg shadow-2xl lg:max-w-sm" />
-                    <div>
-                        <div class="px-6 py-3">
-                            <ul>
-                                <li id="adding-donate" class="relative text-lg"><img
-                                        class="absolute -left-7 items-center" src="images/coin.png" alt="">
-                                    5500 BDT
-                                </li>
-                            </ul>
+        <section id="donation-section">
+            <div>
+                <div class="hero bg-[white] py-5">
+                    <div class="hero-content flex-col lg:flex-row gap-10">
+                        <img src="images/noakhali.png" class="rounded-lg shadow-2xl lg:max-w-sm" />
+                        <div>
+                            <div class="px-6 py-3">
+                                <ul>
+                                    <li id="adding-donate" class="relative text-lg"><img
+                                            class="absolute -left-7 items-center" src="images/coin.png" alt="">
+                                        5500 BDT
+                                    </li>
+                                </ul>
+                            </div>
+                            <h1 class="text-lg font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
+                            <p class="py-6">
+                                The recent flood in Noakhali, Bangladesh has caused significant damage and displacement.
+                                According to reports, heavy rainfall in the region led to a severe flood in August 2022,
+                                affecting over 100,000 people.
+                            </p>
+
+                            <!-- Donation Amount  -->
+                            <input id="add-donate" class="my-2 px-3" type="text" name="" id=""
+                                placeholder="Write Donate Amount">
+
+                            <!-- Donation button -->
+                            <button id="btn-Donation" class="btn btn-outline w-full bg-[#b1b16c] text-lg">Donate
+                                Now</button>
                         </div>
-                        <h1 class="text-lg font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
-                        <p class="py-6">
-                            The recent flood in Noakhali, Bangladesh has caused significant damage and displacement.
-                            According to reports, heavy rainfall in the region led to a severe flood in August 2022,
-                            affecting over 100,000 people.
-                        </p>
-
-                        <!-- Donation Amount  -->
-                        <input id="add-donate" class="my-2 px-3" type="text" name="" id=""
-                            placeholder="Write Donate Amount">
-
-                        <!-- Donation button -->
-                        <button id="btn-Donation" class="btn btn-outline w-full bg-[#b1b16c] text-lg">Donate
-                            Now</button>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- card number 02  -->
-        <div>
-            <div class="hero bg-[white] py-5">
-                <div class="hero-content flex-col lg:flex-row gap-10">
-                    <img src="images/feni.png" class="rounded-lg shadow-2xl lg:max-w-sm" />
-                    <div>
-                        <div class="px-6 py-3">
-                            <ul>
-                                <li class="relative text-lg"><img class="absolute -left-7 items-center"
-                                        src="images/coin.png" alt="">
-                                    5500 BDT
-                                </li>
-                            </ul>
+            <!-- card number 02  -->
+            <div>
+                <div class="hero bg-[white] py-5">
+                    <div class="hero-content flex-col lg:flex-row gap-10">
+                        <img src="images/feni.png" class="rounded-lg shadow-2xl lg:max-w-sm" />
+                        <div>
+                            <div class="px-6 py-3">
+                                <ul>
+                                    <li class="relative text-lg"><img class="absolute -left-7 items-center"
+                                            src="images/coin.png" alt="">
+                                        5500 BDT
+                                    </li>
+                                </ul>
+                            </div>
+                            <h1 class="text-lg font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
+                            <p class="py-6">
+                                Feni, Bangladesh has been severely affected by floods, causing devastation to the
+                                region. In
+                                2024, several organizations and individuals are coming together to provide flood relief
+                                to
+                                the affected areas.
+
+                                The Humanitarian Response Forum (HRF) is working with local authorities to distribute
+                                food,
+                                water, and shelter.
+                            </p>
+
+                            <!-- Donation Amount  -->
+                            <input class="my-2 px-3" type="text" name="" id="" placeholder="Write Donate Amount">
+
+                            <!-- Donation button -->
+                            <button class="btn btn-outline w-full bg-[#b1b16c] text-lg">Donate Now</button>
                         </div>
-                        <h1 class="text-lg font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
-                        <p class="py-6">
-                            Feni, Bangladesh has been severely affected by floods, causing devastation to the region. In
-                            2024, several organizations and individuals are coming together to provide flood relief to
-                            the affected areas.
-
-                            The Humanitarian Response Forum (HRF) is working with local authorities to distribute food,
-                            water, and shelter.
-                        </p>
-
-                        <!-- Donation Amount  -->
-                        <input class="my-2 px-3" type="text" name="" id="" placeholder="Write Donate Amount">
-
-                        <!-- Donation button -->
-                        <button class="btn btn-outline w-full bg-[#b1b16c] text-lg">Donate Now</button>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- card number 03  -->
-        <div>
-            <div class="hero bg-[white] py-5">
-                <div class="hero-content flex-col lg:flex-row gap-10">
-                    <img src="images/quota-protest.png" class="rounded-lg shadow-2xl lg:max-w-sm" />
-                    <div>
-                        <div class="px-6 py-3">
-                            <ul>
-                                <li class="relative text-lg"><img class="absolute -left-7 items-center"
-                                        src="images/coin.png" alt="">
-                                    5500 BDT
-                                </li>
-                            </ul>
+            <!-- card number 03  -->
+            <div>
+                <div class="hero bg-[white] py-5">
+                    <div class="hero-content flex-col lg:flex-row gap-10">
+                        <img src="images/quota-protest.png" class="rounded-lg shadow-2xl lg:max-w-sm" />
+                        <div>
+                            <div class="px-6 py-3">
+                                <ul>
+                                    <li class="relative text-lg"><img class="absolute -left-7 items-center"
+                                            src="images/coin.png" alt="">
+                                        5500 BDT
+                                    </li>
+                                </ul>
+                            </div>
+                            <h1 class="text-lg font-bold">Aid for Injured in the Quota Movement</h1>
+                            <p class="py-6">
+                                The Quota Movement, a significant social reform campaign in India, aimed to grant equal
+                                rights to women. In the event of injured individuals during this movement, there were
+                                reportedly aid and support systems in place.
+
+                                The Indian government and various non-governmental organizations (NGOs) provided medical
+                                assistance and rehabilitation services to those injured during protests.
+                            </p>
+
+                            <!-- Donation Amount  -->
+                            <input class="my-2 px-3" type="text" name="" id="" placeholder="Write Donate Amount">
+
+                            <!-- Donation button -->
+                            <button class="btn btn-outline w-full bg-[#b1b16c] text-lg">Donate Now</button>
                         </div>
-                        <h1 class="text-lg font-bold">Aid for Injured in the Quota Movement</h1>
-                        <p class="py-6">
-                            The Quota Movement, a significant social reform campaign in India, aimed to grant equal
-                            rights to women. In the event of injured individuals during this movement, there were
-                            reportedly aid and support systems in place.
-
-                            The Indian government and various non-governmental organizations (NGOs) provided medical
-                            assistance and rehabilitation services to those injured during protests.
-                        </p>
-
-                        <!-- Donation Amount  -->
-                        <input class="my-2 px-3" type="text" name="" id="" placeholder="Write Donate Amount">
-
-                        <!-- Donation button -->
-                        <button class="btn btn-outline w-full bg-[#b1b16c] text-lg">Donate Now</button>
                     </div>
                 </div>
             </div>
+        </section>
+
+
+
+
+        <!-- History Section  -->
+        <div id="history-section">
         </div>
     </main>
 
@@ -183,6 +195,7 @@
     <!-- Script js connect. -->
     <script src="js/common-function.js"></script>
     <script src="js/donation.js"></script>
+    <script src="js/features.js"></script>
 
 </body>
 
